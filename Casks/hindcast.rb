@@ -1,6 +1,6 @@
 cask "hindcast" do
-  version "0.1.0"
-  sha256 "46c6f3c9fbae2a3cfca39a95cce79b53ac9331acf429ecbe4ab80e6d6f5fb063"
+  version "0.1.1"
+  sha256 "40dc689125877d9f1dbe8608c1c7fa2385a327dac24b8a20d1ab57a34b137575"
 
   url "https://github.com/karanb192/hindcast/releases/download/v#{version}/Hindcast-#{version}-arm64-mac.zip"
   name "Hindcast"
