@@ -1,6 +1,6 @@
 cask "hindcast" do
-  version "0.1.1"
-  sha256 "40dc689125877d9f1dbe8608c1c7fa2385a327dac24b8a20d1ab57a34b137575"
+  version "0.1.2"
+  sha256 "19c1efe907edfd4942e39219747c4ab7dfe263cf16c73bc41a14fe308e331b2c"
 
   url "https://github.com/karanb192/hindcast/releases/download/v#{version}/Hindcast-#{version}-arm64-mac.zip"
   name "Hindcast"
@@ -24,9 +24,9 @@ cask "hindcast" do
   EOS
 
   zap trash: [
+    "~/Library/Application Support/Hindcast",
     "~/Library/Application Support/hindcast",
     "~/Library/Preferences/in.karanbansal.hindcast.plist",
-    "~/Library/Caches/hindcast",
     "~/Library/Saved Application State/in.karanbansal.hindcast.savedState",
   ]
 end
