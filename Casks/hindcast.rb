@@ -1,6 +1,6 @@
 cask "hindcast" do
-  version "0.1.2"
-  sha256 "19c1efe907edfd4942e39219747c4ab7dfe263cf16c73bc41a14fe308e331b2c"
+  version "0.1.3"
+  sha256 "9a8215d7bcaaf452ac28093f73e4c27642f5b91fb6aa0ec8bb6e500806576e5c"
 
   url "https://github.com/karanb192/hindcast/releases/download/v#{version}/Hindcast-#{version}-arm64-mac.zip"
   name "Hindcast"
@@ -17,7 +17,6 @@ cask "hindcast" do
 
   app "Hindcast.app"
 
-  caveats <<~EOS
     Hindcast is not yet notarized. macOS will report the app as damaged
     on first launch. To clear the quarantine flag, run:
       xattr -rd com.apple.quarantine /Applications/Hindcast.app
