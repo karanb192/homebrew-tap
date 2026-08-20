@@ -17,12 +17,6 @@ cask "hindcast" do
 
   app "Hindcast.app"
 
-    Hindcast is not yet notarized. macOS will report the app as damaged
-    on first launch. To clear the quarantine flag, run:
-      xattr -rd com.apple.quarantine /Applications/Hindcast.app
-    This step disappears in an upcoming signed release.
-  EOS
-
   zap trash: [
     "~/Library/Application Support/Hindcast",
     "~/Library/Application Support/hindcast",
